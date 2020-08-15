@@ -1,0 +1,105 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+  background: #59405c;
+  position: fixed;
+  left: 0;
+  z-index: 10;
+  transition: 0.5s;
+}
+.main-closed {
+  display: flex;
+  flex-direction: column;
+  width: 5vw;
+  height: 100vh;
+  background: #59405c;
+  position: fixed;
+  left: 0;
+  z-index: 10;
+  transition: 0.5s;
+}
+.navlinks {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.technology h1 {
+  text-align: center;
+  color: white;
+  font-size: small;
+  font-weight: 300;
+}
+.technology {
+  margin: 20px;
+}
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.navitems-closed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.navitems img {
+  height: 2.3vw;
+  width: 2.3vw;
+}
+.navitems-closed img {
+  height: 2.3vw;
+  width: 2.3vw;
+}
+.navitems div {
+  padding: 0.5vw;
+  margin: auto;
+  transition: 0.3s;
+}
+.navitems-closed div {
+  padding: 0.5vw;
+  margin: auto;
+}
+
+.menuName {
+  color: white;
+  font-size: 1.2vw;
+  text-align: left;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.navitems:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.navitems-closed:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.menuButton-open {
+  position: absolute;
+  right: 0;
+}
+.menuButton-closed {
+  margin: auto;
+}
+.menuButton-open div {
+  margin: 5px;
+  height: 0.3vw;
+  width: 2.5vw;
+  background: white;
+  border-radius: 10px;
+}
+.menuButton-closed div {
+  margin: auto;
+  margin: 5px;
+  height: 0.3vw;
+  width: 2.5vw;
+  background: white;
+  border-radius: 10px;
+}
