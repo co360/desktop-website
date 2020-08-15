@@ -1,11 +1,8 @@
 import React from "react";
 import "./sidebar.css";
-import Home from "../../Pages/Home/Home";
-import Projects from "../../Pages/Projects/Projects";
 import ReactLogo from "../../assets/react_logo.png";
 import HomeIcon from "../../assets/home.svg";
 import BuildIcon from "../../assets/wrench.svg";
-import MenuIcon from "../../assets/hamburger.png";
 
 class Sidebar extends React.Component {
   render() {
